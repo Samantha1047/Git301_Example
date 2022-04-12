@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{250B0572-6F19-4760-8FE5-A8C0A9734854}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Aditya" ID="{250B0572-6F19-4760-8FE5-A8C0A9734854}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Rocket_Ship" ID="{8BD4759C-FF1A-443E-8FDB-AF92ED05CA8E}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

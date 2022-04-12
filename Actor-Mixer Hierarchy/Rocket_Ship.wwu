@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8BD4759C-FF1A-443E-8FDB-AF92ED05CA8E}" SchemaVersion="103" RootDocumentID="{250B0572-6F19-4760-8FE5-A8C0A9734854}" ParentDocumentID="{250B0572-6F19-4760-8FE5-A8C0A9734854}">
+	<AudioObjects>
+		<WorkUnit Name="Rocket_Ship" ID="{8BD4759C-FF1A-443E-8FDB-AF92ED05CA8E}" OwnerID="{250B0572-6F19-4760-8FE5-A8C0A9734854}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Rocket_Ship" ID="{DAEFE0EE-8189-4637-8BB4-B278F02F7FE5}" ShortID="668559146">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04CDBDD0-BE01-4CDB-928C-0DA871E8073B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{84B829A1-4545-476E-B4D5-66B71FC6F3B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="Engine" ID="{30063CD3-04C9-4B0D-95B5-5C490B35687E}" PersistMode="Reference"/>
+						<WorkUnit Name="Ambience_Inside" ID="{090D2868-3BA6-4698-AEF7-EF59D8F9719E}" PersistMode="Reference"/>
+						<WorkUnit Name="Ambience_Outside" ID="{527E5273-F398-42CB-845A-7CBAC110D5D7}" PersistMode="Reference"/>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
