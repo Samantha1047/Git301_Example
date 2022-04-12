@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7618C394-B9B0-4A82-AE8B-159E40C4EEE1}" SchemaVersion="103" RootDocumentID="{4BD67731-4E4F-46F8-8A9A-6CD3B7473497}" ParentDocumentID="{4BD67731-4E4F-46F8-8A9A-6CD3B7473497}">
+	<AudioObjects>
+		<WorkUnit Name="SFX" ID="{7618C394-B9B0-4A82-AE8B-159E40C4EEE1}" OwnerID="{4BD67731-4E4F-46F8-8A9A-6CD3B7473497}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="SFX" ID="{4EC2E59F-5E93-4A56-B4C6-7BCA90307BF0}" ShortID="79218234">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04CDBDD0-BE01-4CDB-928C-0DA871E8073B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{84B829A1-4545-476E-B4D5-66B71FC6F3B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="Footsteps" ID="{497F532D-EA0A-4C6A-B138-0C2448038D19}" PersistMode="Reference"/>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

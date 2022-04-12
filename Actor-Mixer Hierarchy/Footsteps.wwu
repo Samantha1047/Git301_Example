@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{497F532D-EA0A-4C6A-B138-0C2448038D19}" SchemaVersion="103" RootDocumentID="{4BD67731-4E4F-46F8-8A9A-6CD3B7473497}" ParentDocumentID="{7618C394-B9B0-4A82-AE8B-159E40C4EEE1}">
+	<AudioObjects>
+		<WorkUnit Name="Footsteps" ID="{497F532D-EA0A-4C6A-B138-0C2448038D19}" OwnerID="{4EC2E59F-5E93-4A56-B4C6-7BCA90307BF0}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="SFX_Footsteps" ID="{028B0261-6537-460D-AF46-557350BFE435}" ShortID="887173167">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04CDBDD0-BE01-4CDB-928C-0DA871E8073B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{84B829A1-4545-476E-B4D5-66B71FC6F3B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Footsteps_Metal" ID="{D5F04A3F-AF02-41A4-BD05-7BDA7DEE6332}" ShortID="745254583">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04CDBDD0-BE01-4CDB-928C-0DA871E8073B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{84B829A1-4545-476E-B4D5-66B71FC6F3B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</BlendContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

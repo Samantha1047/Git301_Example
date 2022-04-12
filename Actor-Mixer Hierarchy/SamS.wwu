@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4BD67731-4E4F-46F8-8A9A-6CD3B7473497}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="SamS" ID="{4BD67731-4E4F-46F8-8A9A-6CD3B7473497}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="SFX" ID="{7618C394-B9B0-4A82-AE8B-159E40C4EEE1}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
