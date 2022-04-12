@@ -1,0 +1,16 @@
+# Team Zoom
+# Samantha Sun
+# Notes:
+# - Root folder is a Wwise project.
+
+.backup/
+.cache/
+
+IncrementalSoundBankData.xml
+
+*.akpk
+*.akd
+*.bnk
+*.prof
+*.validationcache
+*.wsettings
